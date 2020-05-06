@@ -3,7 +3,7 @@ import PackageDescription
 let package = Package(
     name: "YPImagePicker",
     platforms: [
-        .iOS(.v9)
+        .iOS(.v10)
     ],
     products: [
         .library(name: "YPImagePicker", targets: ["YPImagePicker"]),
